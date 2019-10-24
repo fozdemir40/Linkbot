@@ -1,0 +1,14 @@
+body {
+        margin: 0;
+}
+
+.title-background svg{
+    width: 100%;
+    position: relative;
+}
+
+.title-icons img{
+    position: absolute;
+    top: 500px;
+}
+
