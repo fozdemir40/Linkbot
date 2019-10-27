@@ -1,14 +1,165 @@
 body {
-        margin: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    position: relative;
 }
 
 .title-background svg{
     width: 100%;
-    position: relative;
 }
 
 .title-icons img{
     position: absolute;
     top: 500px;
 }
+
+.pathway{
+    width: 100%;
+    bottom: 400px;
+    position: relative;
+}
+
+.pathway svg{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto 0 auto;
+    width: 500px;
+}
+
+.idea-bubble{
+    text-align: center;
+}
+
+.idea-background{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 850px auto 0 auto;
+    width: 1250px;
+}
+
+.idea-bubble-content{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 1100px;
+    margin: 250px;
+}
+
+.idea-bubble-text{
+    width: 30%;
+    padding: 0;
+    text-align: left;
+    color: white;
+}
+
+.idea-bubble-text h1{
+    font-size: 72px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.idea-bubble-text p{
+    font-size: 24px;
+}
+
+.gear-wrapper {
+    width: 100%;
+    position: relative;
+    top: 1200px;
+}
+
+.gear-content{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto 0 auto;
+}
+
+.gear-content h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 72px;
+}
+
+.team-wrapper {
+    width: 100%;
+    position: relative;
+    top: 1600px;
+}
+
+.team-content{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto 0 auto;
+}
+
+.team-content h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 72px;
+}
+
+.team-members{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 400px;
+}
+
+.member{
+    width: 200px
+}
+
+.member-name{
+    text-align: center;
+    width: inherit;
+}
+
+.member-slogan{
+    text-align: center;
+    width: inherit;
+    font-style: italic;
+}
+
+.member-image img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.story-wrapper{
+    position: relative;
+    top: 2500px;
+}
+
+.gradient-intro{
+    height: 2000px;
+    background-image: linear-gradient(transparent, black);
+}
+
+.story-content{
+    background-color: black;
+    height: 100vh;
+    font-family: 'VT323', monospace;
+    color: white;
+    text-align: center;
+}
+
+.triforce{
+    padding-top: 150px;
+}
+
+.story-button{
+    font-size: 72px;
+    margin-top: 400px;
+}
+
+
+
 
