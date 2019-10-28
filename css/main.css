@@ -157,7 +157,9 @@ body {
 
 .story-button{
     font-size: 72px;
-    margin-top: 400px;
+    margin: 400px auto 0 auto;
+    cursor: pointer;
+    width: 500px;
 }
 
 
