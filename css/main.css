@@ -152,14 +152,55 @@ body {
 }
 
 .triforce{
+    opacity: 1;
     padding-top: 150px;
+}
+
+.triforce-fade{
+    opacity: 0;
+    transition: 1s opacity;
+}
+
+.story-text{
+    width: 700px;
+    margin: 0 auto 0 auto;
+    font-size: 30px;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.robot-text{
+    visibility: hidden;
+    opacity: 0;
+}
+
+.robot-text-fade{
+    visibility: unset;
+    opacity: 1;
+    transition: 6s opacity;
 }
 
 .story-button{
     font-size: 72px;
-    margin: 400px auto 0 auto;
+    margin: 0 auto 0 auto;
     cursor: pointer;
     width: 500px;
+    position: relative;
+    left: 0;
+    right: 0;
+}
+
+.start-button{
+    visibility: unset;
+    opacity: 1;
+
+}
+
+.start-button-fade{
+    visibility: hidden;
+    opacity: 0;
+    transition: 1s opacity;
 }
 
 

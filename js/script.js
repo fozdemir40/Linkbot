@@ -12,7 +12,8 @@ let storyAudio = document.getElementById('theme-song');
 eventButton.addEventListener("click", function(){
     storyAudio.play();
     storyAudio.volume = 1;
-
+    
+    textFading();
     windowScroll();
     
 
@@ -24,6 +25,14 @@ function windowScroll(){
             scrollFade()
         }
     }
+}
+
+function textFading(){
+    document.getElementById('triforce').classList.add('triforce-fade');
+
+    document.getElementById('robot-text').classList.add('robot-text-fade');
+
+    document.getElementById('start-button').classList.add('start-button-fade');
 }
 
 function scrollFade(){
