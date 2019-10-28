@@ -22,7 +22,6 @@ function windowScroll(){
     window.onscroll = function(){
         if(window.pageYOffset < 4200 || document.documentElement.scrollTop < 4200){
             scrollFade()
-            console.log(window.pageYOffset)
         }
     }
 }
