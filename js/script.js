@@ -5,3 +5,10 @@ window.addEventListener("load", function() {
     }, 1000);
 
 }, false);
+
+let eventButton = document.getElementById('story-button');
+let storyAudio = document.getElementById('theme-song');
+
+eventButton.addEventListener("click", function(){
+    storyAudio.play();
+})
