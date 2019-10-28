@@ -22,20 +22,27 @@ eventButton.addEventListener("click", function(){
 function windowScroll(){
     window.onscroll = function(){
         if(window.pageYOffset < 4200 || document.documentElement.scrollTop < 4200){
-            scrollFade()
+            audioFade()
+            resetFading()
         }
     }
 }
 
 function textFading(){
     document.getElementById('triforce').classList.add('triforce-fade');
-
     document.getElementById('robot-text').classList.add('robot-text-fade');
-
     document.getElementById('start-button').classList.add('start-button-fade');
+    document.getElementById('story-button').style.cursor = 'default';
 }
 
-function scrollFade(){
+function resetFading(){
+    document.getElementById('triforce').classList.remove('triforce-fade');
+    document.getElementById('robot-text').classList.remove('robot-text-fade');
+    document.getElementById('start-button').classList.remove('start-button-fade');
+    document.getElementById('story-button').style.cursor = 'pointer';
+}
+
+function audioFade(){
         let interval = setInterval(fade, 200)
     
         //Fade out for audio
