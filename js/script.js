@@ -1,3 +1,5 @@
+
+// Blinking 'PUSH START BUTTON' text
 window.addEventListener("load", function() {
     let f = document.getElementById('start-button');
     setInterval(function() {
@@ -6,6 +8,8 @@ window.addEventListener("load", function() {
 
 }, false);
 
+
+// Event with function, initiating audio, text fade animation and windowScroll function
 let eventButton = document.getElementById('story-button');
 let storyAudio = document.getElementById('theme-song');
 
@@ -19,6 +23,7 @@ eventButton.addEventListener("click", function(){
 
 })
 
+// Checks position of scrollbar to stop audio after getting to 4200px
 function windowScroll(){
     window.onscroll = function(){
         if(window.pageYOffset < 4200 || document.documentElement.scrollTop < 4200){
@@ -28,6 +33,7 @@ function windowScroll(){
     }
 }
 
+// Fading the text out
 function textFading(){
     document.getElementById('triforce').classList.add('triforce-fade');
     document.getElementById('robot-text').classList.add('robot-text-fade');
@@ -35,6 +41,7 @@ function textFading(){
     document.getElementById('story-button').style.cursor = 'default';
 }
 
+// Resetting the text to visibile
 function resetFading(){
     document.getElementById('triforce').classList.remove('triforce-fade');
     document.getElementById('robot-text').classList.remove('robot-text-fade');
@@ -42,6 +49,7 @@ function resetFading(){
     document.getElementById('story-button').style.cursor = 'pointer';
 }
 
+// Function to fade audio out.
 function audioFade(){
         let interval = setInterval(fade, 200)
     
