@@ -1,3 +1,9 @@
+html{
+    background-image: url('images/rubies-background.png');
+    background-size: 90% 1800px;
+    
+}
+
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
