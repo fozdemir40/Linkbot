@@ -256,6 +256,22 @@ body {
     transition: 1s opacity;
 }
 
+@media only screen and (min-width: 2500px){
+    .robot-sketch{
+        width: 15%;
+    }
+
+    .idea-bubble-text p{
+        font-size: 0.9vw;
+    }
+}
+
+@media only screen and (min-width: 2060px){
+    .robot-sketch{
+        width: 25%;
+    }
+}
+
 @media only screen and (max-width: 1060px){
     .title{
         top: 400px;
