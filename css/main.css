@@ -36,9 +36,31 @@ header{
     font-size: 1.3vw;
 }
 
-.title-image-background{
+.header-upper-content{
+    display: flex;
+    justify-content: space-between;
     position: absolute;
     top: 0;
+    width: 100%;
+}
+
+nav{
+    margin: 25px 25px 0;
+}
+
+nav a:hover{
+    color: rgb(155, 141, 13);
+    transition: 0.5s color;
+}
+
+nav a, a:visited, a:active{
+    color: #CCB909;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 1.7vw;
+}
+
+.title-image-background{
     width: 65%;
 }
 
