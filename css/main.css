@@ -24,6 +24,8 @@ body {
     color: #CCB909;
     position: absolute;
     top: 600px;
+    width: 100%;
+    justify-content: space-around;
 }
 
 .title-text h1{
@@ -254,9 +256,9 @@ body {
     transition: 1s opacity;
 }
 
-@media only screen and (min-width: 1680px){
-    .idea-background{
-        text-align: center;
+@media only screen and (max-width: 1060px){
+    .title{
+        top: 400px;
     }
 }
  
@@ -282,10 +284,6 @@ body {
 
     h1{
         font-size: 4vw !important;
-    }
-
-    .title{
-        top: 400px;
     }
 
     .title-icons{
@@ -323,6 +321,12 @@ body {
     }
 }
 
+@media only screen and (max-width: 920px){
+    .title{
+        top: 300px;
+    }
+}
+
 @media only screen and (max-width: 768px){
     .title-background svg{
         display: none;
@@ -337,10 +341,6 @@ body {
         font-size: 5vw !important;
     }
 
-    .title{
-        top: 300px;
-    }
-
     .title-icons{
         width: 400px;
     }
@@ -351,6 +351,15 @@ body {
 
     .gear-wrapper{
         top: 800px;
+    }
+
+    .story-button{
+        width: 100%;
+    }
+
+    .story-text{
+        width: 100%;
+        font-size: 3.5vw;
     }
 }
 
@@ -390,11 +399,6 @@ body {
 
     .story-wrapper{
         top: 2000px;
-    }
-
-    .story-text{
-        font-size: 3.5vw;
-        width: 100%;
     }
 
     .story-button{
