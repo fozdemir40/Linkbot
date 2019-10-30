@@ -287,6 +287,17 @@ body {
     .title-icons{
         width: 600px;
     }
+
+    .pathway{ 
+        width: 50%;
+        margin: 0 auto;
+        text-align: unset;
+    }
+
+    .pathway svg{
+        width: 100%;
+        height: auto;
+    }
 }
 
 @media only screen and (max-width: 768px){
