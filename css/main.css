@@ -9,7 +9,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.header{
+header{
     position: relative;
 }
 
@@ -348,7 +348,7 @@ body {
         display: none;
     }
 
-    .header{
+    header{
         background-color: #464646;
         height: 600px;
     }
@@ -380,7 +380,7 @@ body {
 }
 
 @media only screen and (max-width: 425px){
-    .header{
+    header{
         height: 400px;
     }
 
