@@ -15,26 +15,23 @@ body {
 
 .title-background svg{
     width: 100%;
+    height: auto;
 }
 
-.title-icons img{
-    position: absolute;
-    top: 500px;
-}
 
 .title{
+    display: flex;
     color: #CCB909;
     position: absolute;
-    right: 300px;
-    top: 600px
+    top: 600px;
 }
 
-.title h1{
-    font-size: 72px;
+.title-text h1{
+    font-size: 4vw;
 }
 
-.title p{
-    font-size: 25px;
+.title-text p{
+    font-size: 1.3vw;
 }
 
 .title-image-background{
@@ -49,24 +46,28 @@ body {
     height: auto;
 }
 
+.title-icons{
+    width: 700px;
+}
+
+.title-icons img{
+    width: 100%;
+    height: auto;
+}
 
 .pathway{
     width: 100%;
-    bottom: 400px;
+    bottom: 150px;
     position: relative;
+    text-align: center;
 }
 
 .pathway svg{
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: 0 auto 0 auto;
     width: 500px;
 }
 
 .idea-bubble{
     position: relative;
-    margin-top: 850px;
     width: 100%;
     text-align: center;
 }
@@ -213,7 +214,7 @@ body {
 .story-text{
     width: 900px;
     margin: 0 auto 0 auto;
-    font-size: 30px;
+    font-size: 2vw;
     position: absolute;
     left: 0;
     right: 0;
@@ -259,4 +260,20 @@ body {
     }
 }
  
+@media only screen and (max-width: 1040px){
+    .team-members{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .member{
+        margin: 0 auto;
+    }
+
+    .story-text{
+        width: 500px;
+    }
+}
 
