@@ -294,6 +294,14 @@ nav a, a:visited, a:active{
     }
 }
 
+@media only screen and (max-width: 1305px){
+    nav{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
 @media only screen and (max-width: 1060px){
     .title{
         top: 400px;
