@@ -239,7 +239,7 @@ nav a, a:visited, a:active{
 .story-text{
     width: 900px;
     margin: 0 auto 0 auto;
-    font-size: 30px;
+    font-size: 1.6vw;
     position: absolute;
     left: 0;
     right: 0;
@@ -406,7 +406,7 @@ nav a, a:visited, a:active{
 
     .story-text{
         width: 100%;
-        font-size: 3.5vw;
+        font-size: 3vw;
     }
 }
 
