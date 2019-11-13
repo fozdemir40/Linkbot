@@ -376,6 +376,22 @@ nav a, a:visited, a:active{
     .title{
         top: 300px;
     }
+
+    .title-text p{
+        width: 80%;
+    }
+
+    nav{
+        margin: 0px 25px 0;
+    }
+
+    nav a{
+        font-size: 2.5vw;
+    }
+    
+    .slogan-break{
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 768px){
@@ -446,6 +462,24 @@ nav a, a:visited, a:active{
 
     .robot-text{
         width: 100%;
+    }
+
+    .title-text p{
+        font-size: 2vw;
+    }
+
+    .title-text{
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 640px){
+    nav a{
+        padding: 0 15px 0 15px;
+    }
+
+    .story-content{
+        height: 100vh;
     }
 }
 
@@ -518,5 +552,26 @@ nav a, a:visited, a:active{
     .idea-bubble{
         height: 300px;
     }
+
+    .title-text p{
+        font-size: 2.4vw;
+    }
+
+    nav a{
+        font-size: 2.7vw;
+    }
+
+    nav{
+        margin: 0 10px 0 25px;
+    }
 }
 
+@media only screen and (max-width: 320px){
+    .title-text p{
+        font-size: 2.9vw;
+    }
+
+    nav a{
+        font-size: 2.9vw;
+    }
+}
