@@ -107,6 +107,11 @@ nav a, a:visited, a:active{
     height: auto;
 }
 
+.mobile-blueprint{
+    display: none;
+}
+
+
 .idea-bubble-content{
     position: absolute;
     top: 140px;
@@ -379,6 +384,36 @@ nav a, a:visited, a:active{
         display: none;
     }
 
+    .idea-background, .robot-sketch{
+        display: none;
+    }
+
+    .idea-bubble{
+        background-color: #294AFA;
+        height: 600px;
+        width: 100%;
+    }
+
+    .mobile-blueprint{
+        display: block;
+        position: absolute;
+        width: 80%;
+        height: inherit;
+    }
+
+    .idea-bubble-text{
+        width: 100%;
+        text-align: center;
+    }
+
+    .idea-bubble-text p{
+        font-size: 2.5vw;
+    }
+
+    .idea-bubble-text h1{
+        font-size: 7vw !important;
+    }
+
     header{
         background-color: #464646;
         height: 600px;
@@ -436,6 +471,10 @@ nav a, a:visited, a:active{
         top: 50px;
     }
 
+    .idea-bubble{
+        height: 400px;
+    }
+
     .gear-wrapper{
         top: 600px;
     }
@@ -466,6 +505,10 @@ nav a, a:visited, a:active{
 @media only screen and (max-width: 375px){
     .idea-bubble-content{
         top: 40px;
+    }
+
+    .idea-bubble{
+        height: 300px;
     }
 }
 
