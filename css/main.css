@@ -225,7 +225,7 @@ nav a, a:visited, a:active{
 
 .story-content{
     background-color: black;
-    height: 100vh;
+    height: 200vh;
     font-family: 'VT323', monospace;
     color: white;
     text-align: center;
@@ -306,6 +306,16 @@ nav a, a:visited, a:active{
         justify-content: center;
         flex-direction: column;
     }
+
+    .triforce{
+        width: 20%;
+        margin: 0 auto;
+    }
+
+    .triforce svg{
+        width: 100%;
+        max-width: 217px;
+    }
 }
 
 @media only screen and (max-width: 1060px){
@@ -351,17 +361,6 @@ nav a, a:visited, a:active{
     .pathway svg{
         width: 100%;
         height: auto;
-    }
-
-    .triforce{
-        width: 30%;
-        margin: 0 auto;
-    }
-
-    .triforce svg{
-        width: 100%;
-        height: auto;
-        max-width: 200px;
     }
 
     .story-text{
@@ -437,11 +436,16 @@ nav a, a:visited, a:active{
 
     .story-button{
         width: 100%;
+        top: 400px;
     }
 
     .story-text{
+        width: 80%;
+        font-size: 2.5vw;
+    }
+
+    .robot-text{
         width: 100%;
-        font-size: 3vw;
     }
 }
 
@@ -498,6 +502,10 @@ nav a, a:visited, a:active{
     .member-image img{
         width: 140px;
         height: 150px;
+    }
+
+    .story-button{
+        top: 200px;
     }
 
 }
